@@ -12,7 +12,7 @@ public class ModItems
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, GravityFallsMod.MODID);
 
-    public static final RegistryObject<Item> ITEM_NAME = ITEMS.register("item_name",
+    public static final RegistryObject<Item> THIRTY_EIGHT_SIDED_DIE = ITEMS.register("38-sided_die",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus)
