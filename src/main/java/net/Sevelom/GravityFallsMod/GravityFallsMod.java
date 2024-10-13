@@ -48,7 +48,8 @@ public class GravityFallsMod
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
-            event.accept(ModItems.THIRTY_EIGHT_SIDED_DIE);
+            event.accept(ModItems.ADHESIVE);
+            event.accept(ModItems.BABBA);
         }
     }
 
