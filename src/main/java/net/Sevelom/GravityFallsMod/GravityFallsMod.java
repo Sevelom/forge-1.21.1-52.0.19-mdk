@@ -50,6 +50,10 @@ public class GravityFallsMod
         {
             event.accept(ModItems.ADHESIVE);
             event.accept(ModItems.BABBA);
+            event.accept(ModItems.BAT_ERIES);
+            event.accept(ModItems.BOYZ_WORLD);
+            event.accept(ModItems.CAN_OF_BEANS);
+            event.accept(ModItems.FUN_MAZE);
         }
     }
 
