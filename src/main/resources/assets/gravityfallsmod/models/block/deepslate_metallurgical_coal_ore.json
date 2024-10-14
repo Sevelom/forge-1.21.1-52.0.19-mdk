@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures":
+  {
+    "all": "gravityfallsmod:block/deepslate_metallurgical_coal_ore"
+  }
+}

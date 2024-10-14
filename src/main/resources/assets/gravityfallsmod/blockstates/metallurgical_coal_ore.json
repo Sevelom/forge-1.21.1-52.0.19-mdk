@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "gravityfallsmod:block/metallurgical_coal_ore"
+    }
+  }
+}

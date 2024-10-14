@@ -28,10 +28,12 @@ public class ModCreativeModeTabs
                                 output.accept(ModItems.BOYZ_WORLD.get());
                                 output.accept(ModItems.FUN_MAZE.get());
 
+                                output.accept(ModBlocks.PINE_LOG.get());
                                 output.accept(ModBlocks.PINE_WOOD.get());
                                 output.accept(ModBlocks.PINE_LEAVES.get());
-                                output.accept(ModBlocks.PINE_LOG.get());
                                 output.accept(ModBlocks.PINE_PLANKS.get());
+                                output.accept(ModBlocks.METALLURGICAL_COAL_ORE.get());
+                                output.accept(ModBlocks.DEEPSLATE_METALLURGICAL_COAL_ORE.get());
                             })
                             .build());
 

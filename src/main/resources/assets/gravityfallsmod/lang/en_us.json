@@ -5,10 +5,12 @@
   "item.gravityfallsmod.boyz_world": "Boyz World",
   "item.gravityfallsmod.fun_maze": "Cap'n Brain-Teasers' Fun Maze",
 
+  "block.gravityfallsmod.pine_log": "Pine Log",
   "block.gravityfallsmod.pine_wood": "Pine Wood",
   "block.gravityfallsmod.pine_leaves": "Pine Leaves",
-  "block.gravityfallsmod.pine_log": "Pine Log",
   "block.gravityfallsmod.pine_planks": "Pine Planks",
+  "block.gravityfallsmod.metallurgical_coal_ore": "Metallurgical Coal Ore",
+  "block.gravityfallsmod.deepslate_metallurgical_coal_ore": "Deepslate Metallurgical Coal Ore",
 
   "creativetab.gravityfalls_tab": "Gravity Falls Tab"
 }

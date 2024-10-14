@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "gravityfallsmod:block/deepslate_metallurgical_coal_ore"
+    }
+  }
+}
