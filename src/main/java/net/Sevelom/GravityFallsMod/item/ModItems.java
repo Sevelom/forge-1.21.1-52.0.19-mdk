@@ -18,8 +18,6 @@ public class ModItems
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BAT_ERIES = ITEMS.register("bat_eries",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CAN_OF_BEANS = ITEMS.register("can_of_beans",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOYZ_WORLD = ITEMS.register("boyz_world",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FUN_MAZE = ITEMS.register("fun_maze",

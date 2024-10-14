@@ -1,6 +1,8 @@
 package net.Sevelom.GravityFallsMod;
 
 import com.mojang.logging.LogUtils;
+import net.Sevelom.GravityFallsMod.block.ModBlocks;
+import net.Sevelom.GravityFallsMod.item.ModCreativeModeTabs;
 import net.Sevelom.GravityFallsMod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,7 +31,10 @@ public class GravityFallsMod
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -48,12 +53,7 @@ public class GravityFallsMod
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
-            event.accept(ModItems.ADHESIVE);
-            event.accept(ModItems.BABBA);
-            event.accept(ModItems.BAT_ERIES);
-            event.accept(ModItems.BOYZ_WORLD);
-            event.accept(ModItems.CAN_OF_BEANS);
-            event.accept(ModItems.FUN_MAZE);
+
         }
     }
 
