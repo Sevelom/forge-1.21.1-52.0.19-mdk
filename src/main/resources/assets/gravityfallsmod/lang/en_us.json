@@ -6,6 +6,9 @@
   "item.gravityfallsmod.fun_maze": "Cap'n Brain-Teasers' Fun Maze",
 
   "block.gravityfallsmod.pine_wood": "Pine Wood",
+  "block.gravityfallsmod.pine_leaves": "Pine Leaves",
+  "block.gravityfallsmod.pine_log": "Pine Log",
+  "block.gravityfallsmod.pine_planks": "Pine Planks",
 
   "creativetab.gravityfalls_tab": "Gravity Falls Tab"
 }

@@ -29,6 +29,9 @@ public class ModCreativeModeTabs
                                 output.accept(ModItems.FUN_MAZE.get());
 
                                 output.accept(ModBlocks.PINE_WOOD.get());
+                                output.accept(ModBlocks.PINE_LEAVES.get());
+                                output.accept(ModBlocks.PINE_LOG.get());
+                                output.accept(ModBlocks.PINE_PLANKS.get());
                             })
                             .build());
 
