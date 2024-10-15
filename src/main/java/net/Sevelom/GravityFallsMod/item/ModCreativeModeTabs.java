@@ -27,6 +27,8 @@ public class ModCreativeModeTabs
                                 output.accept(ModItems.BAT_ERIES.get());
                                 output.accept(ModItems.BOYZ_WORLD.get());
                                 output.accept(ModItems.FUN_MAZE.get());
+                                output.accept(ModItems.METALLURGICAL_COAL.get());
+                                output.accept(ModItems.COKE.get());
 
                                 output.accept(ModBlocks.PINE_LOG.get());
                                 output.accept(ModBlocks.PINE_WOOD.get());

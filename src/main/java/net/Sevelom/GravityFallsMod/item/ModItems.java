@@ -23,6 +23,11 @@ public class ModItems
     public static final RegistryObject<Item> FUN_MAZE = ITEMS.register("fun_maze",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> METALLURGICAL_COAL = ITEMS.register("metallurgical_coal",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COKE = ITEMS.register("coke",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

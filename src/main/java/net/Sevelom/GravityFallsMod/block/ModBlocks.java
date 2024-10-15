@@ -32,10 +32,10 @@ public class ModBlocks
 
     public static final RegistryObject<Block> METALLURGICAL_COAL_ORE = registerBlock("metallurgical_coal_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 5), BlockBehaviour.Properties.ofFullCopy(Blocks.COAL_ORE)
-                    .strength(2f).requiresCorrectToolForDrops()));
+                    .strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> DEEPSLATE_METALLURGICAL_COAL_ORE = registerBlock("deepslate_metallurgical_coal_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 5), BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_COAL_ORE)
-                    .strength(2.5f).requiresCorrectToolForDrops()));
+                    .strength(4.5f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
