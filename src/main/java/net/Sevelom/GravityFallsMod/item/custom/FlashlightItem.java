@@ -1,5 +1,6 @@
 package net.Sevelom.GravityFallsMod.item.custom;
 
+import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -17,6 +18,7 @@ public class FlashlightItem extends Item
     {
         if(!pContext.getLevel().isClientSide)
         {
+            BlockPos positionClickied = pContext.getClickedPos();
             Player player = pContext.getPlayer();
         }
 
